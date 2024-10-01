@@ -133,8 +133,10 @@
 
 .recipes__videos {
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 215px;
   gap: 40px;
+  list-style-type: none;
+  padding: 0;
 }
 
 .recipes__iframe {
@@ -149,5 +151,6 @@
   font-size: 20px;
   line-height: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 24px 0 0;
 }
