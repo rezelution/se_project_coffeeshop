@@ -181,7 +181,7 @@
   background-size: cover;
 }
 
-.reservation__animation--left-chair {
+.animation__left-chair {
   margin: 0px;
   position: relative;
   width: 118px;
@@ -191,7 +191,7 @@
   animation: left-chair 2s 1 normal ease-in-out running forwards;
 }
 
-.reservation__animation--right-chair {
+.animation__right-chair {
   margin: 0px;
   position: absolute;
   width: 118px;
@@ -276,7 +276,7 @@
   margin-right: 20px;
 }
 
-.form__checkbox--alignment {
+.form__checkbox-alignment {
   display: flex;
   margin-bottom: 120px;
 }
