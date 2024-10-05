@@ -181,21 +181,20 @@
   background-size: cover;
 }
 
-.animation__left-chair {
+.reservation__animation {
   margin: 0px;
-  position: relative;
   width: 118px;
   height: 118px;
+}
+
+.reservation__animation_left-chair {
+  position: relative;
   top: 320px;
   left: 360px;
   animation: left-chair 2s 1 normal ease-in-out running forwards;
 }
-
-.animation__right-chair {
-  margin: 0px;
+.reservation__animation_right-chair {
   position: absolute;
-  width: 118px;
-  height: 118px;
   top: 2350px;
   left: 950px;
   animation: right-chair 4s 1 normal ease-in-out running forwards;
