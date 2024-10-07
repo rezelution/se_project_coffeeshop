@@ -14,7 +14,6 @@
       content="coffee, espresso, baked goods, recipes, reservations, coffee shop"
     />
     <meta name="author" content="Alexander Reznik" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="bean icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -104,6 +103,7 @@
               <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
+                required
                 class="form__input"
                 id="name"
                 placeholder="Name Surname"
@@ -111,6 +111,7 @@
               <label for="guests" class="form__label">Number of guests *</label>
               <input
                 type="number"
+                required
                 min="1"
                 max="8"
                 class="form__input"
@@ -118,10 +119,16 @@
                 placeholder="1-8"
               />
               <label for="date-time" class="form__label">Date & Time *</label>
-              <input type="datetime-local" class="form__input" id="date-time" />
+              <input
+                type="datetime-local"
+                required
+                class="form__input"
+                id="date-time"
+              />
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
+                required
                 class="form__input"
                 id="email"
                 placeholder="email@email.com"
@@ -129,7 +136,12 @@
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
             <div class="form__checkbox-alignment">
-              <input type="checkbox" class="form__checkbox" id="agreement" />
+              <input
+                type="checkbox"
+                required
+                class="form__checkbox"
+                id="agreement"
+              />
               <label for="agreement" class="form__label"
                 >I agree with the terms of use</label
               >
