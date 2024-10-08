@@ -14,7 +14,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 - adjust hours in Heading section based on user time zone
-- make address in Heading section open up in maps applciation to allow directions to store
+- make address in Heading section open up in maps application to allow directions to store
 - add search input fields in the Recipes section to find additional recipes
 - make Menu section more condensed so you can read all menu items without scrolling
 - add a "contact" us link
