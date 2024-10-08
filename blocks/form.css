@@ -46,6 +46,7 @@
   background-color: #1878dc;
   transition: background-color 1s linear 1s;
   color: #fff;
+  transition: background-color 0.5s ease;
 }
 
 .form__button:hover {
