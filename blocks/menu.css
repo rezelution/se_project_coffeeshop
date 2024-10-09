@@ -4,17 +4,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 0;
+  margin: 0 auto;
 }
 
 .menu__title {
   max-width: 780px;
-  padding: 100px 0 24px 0;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 24px;
 }
 
 .menu__subtitle {
@@ -32,6 +33,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 100px;
-  column-gap: 100px;
+  gap: 100px;
 }

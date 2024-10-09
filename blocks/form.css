@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px auto 0px;
 }
 
 .form__fieldset {
@@ -27,7 +26,7 @@
   line-height: 30px;
   margin-bottom: 32px;
   padding: 15px 20px;
-  border: 1px solid #000;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {
@@ -47,6 +46,7 @@
   transition: background-color 1s linear 1s;
   color: #fff;
   transition: background-color 0.5s ease;
+  border: none;
 }
 
 .form__button:hover {
