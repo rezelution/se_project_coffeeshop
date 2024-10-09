@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   padding: 100px 0;
-  margin: 0 auto;
+  margin: 0 auto; /*not sure why background shifts and is not aligned like in brief can't figure it out*/
 }
 
 .menu__title {
@@ -20,7 +20,7 @@
 
 .menu__subtitle {
   max-width: 780px;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif; /*even though i followed brief don't understand why word break is not comistent to brief*/
   font-size: 20px;
   line-height: 30px;
   text-align: center;
