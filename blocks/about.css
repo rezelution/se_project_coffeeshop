@@ -50,8 +50,7 @@
   margin: 0;
 }
 
-.about__circle,
-.about__circle_animation_blurred {
+.about__circle {
   width: 426px;
   height: 426px;
   border-radius: 50%;

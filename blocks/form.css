@@ -19,6 +19,10 @@
   line-height: 20px;
 }
 
+.form__label:last-child {
+  margin-bottom: 0;
+}
+
 .form__input {
   border-radius: 4px;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -64,5 +68,4 @@
 
 .form__checkbox-alignment {
   display: flex;
-  margin-bottom: 120px;
 }
